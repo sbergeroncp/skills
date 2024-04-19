@@ -1,310 +1,123 @@
-# Beginner Arcade
-* name: Beginner's Guide to Arcade Games
-* description: Learn to create arcade games of your own by completing these tutorials.
-* infoUrl: /skillmap/educator-info/basic-map-info
+# sample
+* name: Game Maker Guide
+* description: Level up your game making skills by completing the tutorials in this guide.
 
-
-
-## Learn to Use Tutorial
-* name: Learn to Use MakeCode Arcade
-* description: Start here if you want to know the ins and outs of Arcade tutorials!
-* completionUrl: /skillmap/certificates/understanding-arcade-tutorials.pdf
+## interface
+* name: Learn to use MakeCode Arcade
+* description: This will teach you how to complete tutorials in Microsoft MakeCode Arcade.
+* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
 
 ### interface-activity1
 
-* name: Get to Know MakeCode Arcade
+* name: Learn to use MakeCode Arcade
 * type: tutorial
-* description: Intro to the features and vocabulary used in Arcade tutorials.
+* description: Intro to our tutorial cards
 * tags: easy
 
-* url: /skillmap/interface/activity1 
-* imageUrl: /static/skillmap/interface/activity1.png
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/interface/activity1 
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/interface/activity1.png
 
+## space
+* name: Design a Space Explorer
+* description: Let's explore the depths of space! We'll design a vessel for space travel, add some enemies, and populate the universe with planets.
+* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/design-a-space-explorer.pdf
 
+### space-activity1
 
-
-
-## Quick Example Games
-* name: Quick-Start Games
-* description:  Build your first games in less than 30 minutes!
-* completionUrl: /static/skillmap/certificates/getting-started.pdf
-
-
-### story-activity1
-
-* name: Greeting Card
+* name: Ship Design
 * type: tutorial
-* description: Make an amazing greeting card in minutes!
-* tags: easy, story, card, creative
-* next: clicker-activity1
+* description: Draw and code a spaceship!
+* tags: easy
+* next: space-activity2
 
-* url: /skillmap/story/story1 
-* imageUrl: /static/skillmap/story/story-activity1.png
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/space/activity1
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space/activity1.png
 
+### space-activity2
 
-### clicker-activity1
-
-* name: Clicker Game
+* name: Projectiles
 * type: tutorial
-* description: Make a simple clicker game in MakeCode Arcade!
-* tags: easy, clicker, game
-* next: collector-activity1
+* description: Customize your ship with projectiles and effects.
+* tags: easy, projectiles, kinds
+* next: space-activity3
 
-* url: /skillmap/clicker/clicker1 
-* imageUrl: /static/skillmap/clicker/clicker-activity1.png
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/space/activity2
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space/activity2.png
 
+### space-activity3
 
-### collector-activity1
-
-* name: Collector Game
+* name: Enemies
+* description: Watch out for danger! Add enemies and lives to your game.
 * type: tutorial
-* description: Make an arcade-style collector game!
-* tags: easy, collector, game
-* next: puzzle-activity1
+* tags: easy, enemies, kinds
+* next: space-activity4
 
-* url: /skillmap/collector/collector1 
-* imageUrl: /static/skillmap/collector/collector-activity1.png
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/space/activity3
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space/activity3.png
 
+### space-activity4
 
-### puzzle-activity1
-
-* name: Quick Puzzle
+* name: Fuel Up
 * type: tutorial
-* description: Make a puzzle game and test your luck!
-* tags: easy, puzzle, game
-
-* url: /skillmap/puzzle/puzzle1 
-* imageUrl: /static/skillmap/puzzle/puzzle-activity1.png
+* description: Use an extension to add a fuel gauge to your ship. Make sure to refuel often!
+* tags: intermediate, extensions
 
 
-
-## story
-* name: Tell Stories Using Arcade
-* description: Learn to tell engaging short stories using Microsoft MakeCode Arcade.
-* completionUrl: /static/skillmap/certificates/writing-stories.pdf
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/space/activity4
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space/activity4.png
 
 
 
-### story-activity2
+## platformer
+* name: Learn to Make a Platformer
+* description: A skillmap that takes you through how to build a platformer with multiple levels.
+* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/learn-to-make-a-platformer.pdf
 
-* name: Bigger Greeting
+### platformer-activity1
+
+* name: Simple Platformer
 * type: tutorial
-* description: Add to your greeting card for a gift that keeps on giving!
-* tags: easy, card, gift, creative
-* next: story-activity3
-* reqired: 1 story
+* description: Learn how to make a player character that can jump and move around a tilemap.
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity1
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity1.png
+* tags: easy
+* next: platformer-activity2
 
-* url: /skillmap/story/story2 
-* imageUrl: /static/skillmap/story/story-activity2.png
+### platformer-activity2
 
-### story-activity3
-
-* name: Joking Around
+* name: Camera and Tiles
 * type: tutorial
-* description: Create your first Arcade story using a two-line joke!
-* tags: easy, story, joke, creative
-* next: story-activity4
+* description: Learn how to use the camera and add tile overlap events to give the player a way to win and lose.
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity2
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity2.png
+* tags: easy, tiles
+* next: platformer-activity3
 
-* url: /skillmap/story/story3 
-* imageUrl: /static/skillmap/story/story-activity3.png
+### platformer-activity3
 
-
-### story-activity4
-
-* name: Shortest Story
+* name: Simple Enemies
 * type: tutorial
-* description: Write a short story with a scene of your own!
-* tags: easy, story, joke, creative
+* description: Learn how to add enemies to your game that follow the player.
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity3
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity3.png
+* tags: intermediate, overlaps
+* next: platformer-activity4
 
-* url: /skillmap/story/story4 
-* imageUrl: /static/skillmap/story/story-activity4.png
+### platformer-activity4
 
-
-
-
-
-## clicker
-* name: Make a Clicker! 
-* description: Build and embellish a clicker game in MakeCode Arcade.
-* completionUrl: /static/skillmap/certificates/clicker-game.pdf
-
-
-### clicker-activity2
-
-* name: Grand Clicker
+* name: Multiple Levels
 * type: tutorial
-* description: Modify your clicker so that it's unmistakably yours! 
-* tags: easy, clicker, game
-* next: clicker-activity3
-* required: 1 clicker
+* description: Add a second level to your platformer using functions.
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity4
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity4.png
+* tags: intermediate, functions
+* next: platformer-activity5
 
-* url: /skillmap/clicker/clicker2 
-* imageUrl: /static/skillmap/clicker/clicker-activity2.png
+### platformer-activity5
 
-
-### clicker-activity3
-
-* name: Super Clicker
+* name: Enemy AI
 * type: tutorial
-* description: Add code to make your simple clicker more powerful!
-* tags: easy, clicker, game
-* next: clicker-activity4
-
-* url: /skillmap/clicker/clicker3 
-* imageUrl: /static/skillmap/clicker/clicker-activity3.png
-
-
-### clicker-activity4
-
-* name: Clicker Store
-* type: tutorial
-* description: Make a simple store that lets players buy more power! 
-* tags: easy, clicker, game
-* next: clicker-activity5
-
-* url: /skillmap/clicker/clicker4 
-* imageUrl: /static/skillmap/clicker/clicker-activity4.png
-
-
-
-### clicker-activity5
-
-* name: Bigger Clicker
-* type: tutorial
-* description: Make a simple store that lets players buy more power! 
-* tags: intermediate, clicker, game, sandbox
-
-
-* url: /skillmap/clicker/clicker5 
-* imageUrl: /static/skillmap/clicker/clicker-activity5.png
-
-
-
-
-
-
-## Collector
-* name: Collector Game
-* description: Build a simple collector game in MakeCode Arcade!
-* completionUrl: /static/skillmap/certificates/collector-game.pdf
-
-
-
-### collector-activity2
-
-* name: Collect the Fun
-* type: tutorial
-* description: Make a few simple changes for a game that's twice as fun! 
-* tags: easy, collector, game
-* required: 1 collector
-* next: collector-activity3
-
-
-* url: /skillmap/collector/collector2 
-* imageUrl: /static/skillmap/collector/collector-activity2.png
-
-
-
-### collector-activity3
-
-* name: Experience Danger
-* type: tutorial
-* description: Learn to add enemy projectiles to your game!
-* tags: easy, collector, game
-* next: collector-activity4
-
-
-* url: /skillmap/collector/collector3
-* imageUrl: /static/skillmap/collector/collector-activity3.png
-
-
-
-
-### collector-activity4
-
-* name: Give it Life
-* type: tutorial
-* description: Add extra lives to your collector game!
-* tags: easy, collector, game
-* next: collector-activity5
-
-
-* url: /skillmap/collector/collector4
-* imageUrl: /static/skillmap/collector/collector-activity4.png
-
-
-
-### collector-activity5
-
-* name: Go for Gusto
-* type: tutorial
-* description: Make your game super special by doing your own thing!
-* tags: intermediate, collector, game, sandbox
-
-
-* url: /skillmap/collector/collector5
-* imageUrl: /static/skillmap/collector/collector-activity5.png
-
-
-
-
-
-## Puzzle
-* name: Puzzle Game
-* description: Build a guess-the-number game!
-* completionUrl: /static/skillmap/certificates/puzzle-game.pdf
-
-
-
-### puzzle-activity2
-
-* name: Puzzling Answers
-* type: tutorial
-* description: Reveal the magic answer when the game is over! 
-* tags: easy, puzzle, game
-* required: 1 puzzle
-* next: puzzle-activity3
-
-
-* url: /skillmap/puzzle/puzzle2 
-* imageUrl: /static/skillmap/puzzle/puzzle-activity2.png
-
-
-
-### puzzle-activity3
-
-* name: Guess Again
-* type: tutorial
-* description: Add multiple chances to guess correctly! 
-* tags: easy, puzzle, game
-* next: puzzle-activity4
-
-
-* url: /skillmap/puzzle/puzzle3 
-* imageUrl: /static/skillmap/puzzle/puzzle-activity3.png
-
-
-
-### puzzle-activity4
-
-* name: Getting Warmer
-* type: tutorial
-* description: Let the player know if their guesses are high or low! 
-* tags: intermediate, puzzle, game
-* next: puzzle-activity5
-
-* url: /skillmap/puzzle/puzzle5
-* imageUrl: /static/skillmap/puzzle/puzzle-activity4.png
-
-
-
-### puzzle-activity5
-
-* name: Take Over
-* type: tutorial
-* description: Get creative with your guessing game! 
-* tags: intermediate, puzzle, game, sandbox
-
-
-* url: /skillmap/puzzle/puzzle5
-* imageUrl: /static/skillmap/puzzle/puzzle-activity5.png
+* description: Add physics and AI to the enemies in your game.
+* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity5
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity5.png
+* tags: intermediate, AI, physics
